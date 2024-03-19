@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Latihan 1</string>
+    <string name="contoh">Contoh</string>
+    <string name="luas_keliling_persegi_panjang"><![CDATA[Luas & Keliling Persegi Panjang]]></string>
+    <string name="luas_keliling_lingkaran"><![CDATA[Luas & Keliling Lingkaran]]></string>
+    <string name="konversi_suhu_c_f">Konversi Suhu C-F</string>
+    <string name="bilangan_genap_ganjil"><![CDATA[Bilangan Genap & Ganjil]]></string>
+    <string name="satuan_panjang">Satuan Panjang</string>
+    <string name="title_activity_latihan3">Latihan3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
