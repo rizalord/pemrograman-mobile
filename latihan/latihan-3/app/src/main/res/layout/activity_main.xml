@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!--  Image Button  -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Latihan Object"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btnImage"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img" />
+
+        </LinearLayout>
+
+        <!--  Radio Button  -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Latihan Radio Button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Apa jenis kelasmu?"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Kelas Reguler" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Kelas Sore" />
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <!--  Toggle Button  -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Aktivasi"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/tglBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+        <!--    ImageView-->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Fakultas Teknologi Informasi"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="250dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Fakultas Teknologi Informasi"
+                android:src="@drawable/img" />
+
+        </LinearLayout>
+
+        <!--  Button Intent  -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Intent"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnIntent"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Pindah Activity" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
